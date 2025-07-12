@@ -1,0 +1,68 @@
+body{
+    background-color: rgba(0, 0, 0, 0.718);
+}
+nav{
+    background-color: black;
+    color: aliceblue;
+    height: 70px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.main{
+    height: 100vh;
+    display: flex;
+    border: 5px solid white;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.calc{
+    height:620px;
+    width:420px;
+    border: 5px solid white;
+   
+}
+.display{
+    height: 15%;
+    border-bottom: 2px solid white;
+    background-color: rgba(143, 216, 216, 0.904);
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    font-size:400%;
+    
+    
+}
+
+
+
+.btns{
+    height: 85%;
+    border: 1px solid white;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    background-color: black;
+
+}
+.btn{
+    flex: 1 1 85px;
+    border: 1px solid orangered;
+    min-height: 50px;
+    background-color: rgba(255, 68, 0, 0.638);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.op{
+    background-color: orange;
+}
